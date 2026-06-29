@@ -24,4 +24,4 @@ test("Deve retornar a própria letra quando há apenas um caractere", () => {
 
 test("Deve retornar mensagem de erro para string vazia", () => {
   assert.deepStrictEqual(ordemAlfabetica(""), "Me dê caracteres");
-});
+}); 
